@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #output {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 100px;
+    resize: vertical;
+    overflow-y: auto;
+  }
+
+  .styled-input {
+    
+    font-family: Calibri;
+    font-size: 60px ;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(53, 162, 245);
+}
+
+.styled-input-2 {
+    font-family: Calibri;
+    font-size: 50px ;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(221, 68, 183); 
+}
+
+
+.styled-input-3 {
+    font-family: Calibri;
+    font-size: 40px ;
+    font-weight: bold;
+    color: orange
+}
+
+.styled-input-4 {
+    
+    font-family: Calibri;
+    font-size: 20px ;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline;
+}
+
+.styled-input-5 {
+    font-family: Calibri;
+    font-size: 12px ;
+    text-decoration: underline;
+    font-style: italic;
+    color: orangered;
+}
